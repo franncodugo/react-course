@@ -4,6 +4,6 @@ import { FirstComponent } from './components/FirstComponent'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode> 
-      <FirstComponent /> 
+      <FirstComponent title='Hola Mundo'/> 
   </React.StrictMode>,
 )
